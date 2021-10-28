@@ -69,6 +69,10 @@ public class MoviesController {
         db.tableMovies.getById(id);
         db.tableMovies.deleteById(id);
     }
+    @GetMapping(value="/getHelloWorld")
+    public String getHelloWorld(){
+        return "hello";
+    }
 
 
 }
