@@ -14,9 +14,9 @@ public class DbManager {
         return instance;
     }
 
-    private String URL = "jdbc:postgresql://localhost:5432/postgres?currentSchema=movies";
-    private String LOGIN = "postgres";
-    private String PASSWORD = "1234";
+    private String URL = "jdbc:postgresql://ec2-54-216-17-9.eu-west-1.compute.amazonaws.com:5432/de9rphrmehomn0?currentSchema=movies";
+    private String LOGIN = "pehunnoweicslu";
+    private String PASSWORD = "a905330a9a8c3e3c119b408db1e210ed67016dad93dc7465023277ca3e1e21ee";
 
     public TableMovies tableMovies;
 
