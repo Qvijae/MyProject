@@ -58,7 +58,7 @@ public class TableMovies {
 
             return movies;
         } catch (Exception e) {
-            throw new Exception("Ошибка получения фильмов из базы данных");
+            throw e;
         } finally {
             if (connection != null) {
                 connection.close();
